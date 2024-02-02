@@ -5,11 +5,22 @@ body {
   color: #434455;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -50,6 +61,13 @@ ul {
 .about {
   background-color: #2e2f42;
 }
+/* .container { 
+max-width: 
+padding-left:  
+padding-right:  
+margin-left:  
+margin-right:  
+} */
 .about-title {
   text-align: center;
   color: #fff;
@@ -94,6 +112,7 @@ ul {
   background-color: #f4f4fd;
 }
 .team-card {
+  margin: 0 auto;
   background-color: #fff;
   text-align: center;
 }
